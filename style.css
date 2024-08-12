@@ -96,3 +96,45 @@ nav {
     border-color: #E5E7EB;
 }
 
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-heading {
+    padding: 40px;
+    white-space: nowrap;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    gap: 10px;
+}
+
+.card-img img {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.card-description {
+    width: 180px;
+    text-align: justify;
+}
+
