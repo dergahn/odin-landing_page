@@ -70,7 +70,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
     flex-shrink: 0;
 }
 
@@ -83,6 +83,14 @@ nav {
 .intro-text .intro-text-info {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.intro-text .sign-up-button-1 {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .intro-img {
@@ -101,6 +109,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .information-heading {
@@ -112,7 +121,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -138,3 +147,82 @@ nav {
     text-align: justify;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quote {
+    min-width: 350px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    flex-shrink: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.sign-up-wrapper {
+    margin: 100px 200px 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 600px;
+    gap: 20px;
+}
+
+.sign-up-information {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.sing-up-content {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.sign-up-button-2 {
+    padding: 5px 20px 5px 20px;
+    border: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #E5E7EB;
+}
